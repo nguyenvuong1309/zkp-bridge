@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Japan",
+        "image": "/flags/jp.png",
+        "duty": "Consumption Tax",
+        "rates": [
+            800,
+            1000
+        ]
+    },
+    {
+        "name": "Singapore",
+        "image": "/flags/sg.png",
+        "duty": "GST",
+        "rates": [
+            800
+        ]
+    },
+    {
+        "name": "Thailand",
+        "image": "/flags/th.png",
+        "duty": "VAT",
+        "rates": [
+            700
+        ]
+    },
+    {
+        "name": "Marshall Islands ",
+        "image": "/flags/mh.png",
+        "duty" : "Sales Tax",
+        "rates": [200, 400]
+    }
+]

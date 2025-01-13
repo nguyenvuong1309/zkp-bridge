@@ -1,0 +1,208 @@
+[
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "daoId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "bytes32",
+          "name": "name",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "isParent",
+          "type": "bool"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "representative",
+          "type": "address"
+        }
+      ],
+      "name": "NewDAO",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "daoCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_daoId",
+          "type": "uint256"
+        }
+      ],
+      "name": "disable",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_daoId",
+          "type": "uint256"
+        }
+      ],
+      "name": "enable",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "gazettes",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "name",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "addr",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "jurisdiction",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bool",
+          "name": "isParent",
+          "type": "bool"
+        },
+        {
+          "internalType": "uint256",
+          "name": "parentId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bool",
+          "name": "discontinued",
+          "type": "bool"
+        },
+        {
+          "internalType": "address",
+          "name": "representative",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_name",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "_addr",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "_jurisdiction",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bool",
+          "name": "_isParent",
+          "type": "bool"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_parentId",
+          "type": "uint256"
+        }
+      ],
+      "name": "register",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_daoId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "_addr",
+          "type": "bytes32"
+        }
+      ],
+      "name": "updateDaoAddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_daoId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "_jurisdiction",
+          "type": "bytes32"
+        }
+      ],
+      "name": "updateDaoJurisdiction",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_daoId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "_name",
+          "type": "bytes32"
+        }
+      ],
+      "name": "updateDaoName",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]

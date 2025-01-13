@@ -1,15 +1,9 @@
-## Run demo
-
-```
-node packages/client/src/demo/runDAOCheck.js
-```
-
 ## Getting started
 
 Before getting started, ensure you have all the dependencies required to run the command:
 
 ```
-npm run bootstrap
+yarn install
 ```
 
 We can then run all tests for all smart contracts and circuits by:
@@ -23,8 +17,11 @@ And to start the frontend application:
 ```
 npm run package:client
 ```
+## Run demo
 
-## Deployment
+```
+node packages/client/src/demo/runDAOCheck.js
+```
 
 ### Shibuya Testnet
 
